@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>form 1</title>
+<link rel="icon" href="../images/logo1.jpg" alt="x_icon">
+</head>
+<body bgcolor="#FFC785">
+<form method="post" action="form2.html">
+<table cellpadding="10px" style="background-color:purple;color:white" align="center";>
+<caption align="bottom"><marquee behavior="alternate" scrollamount="3" style="background-color:orange;color:black;">Personal details</marquee>
+</caption>
+<tr>
+<th>Details:</th>
+<th>User Input</th>
+</tr>
+<tr style="text-align:center;">
+<td><label for="fn">Please Enter your Full Name:</td>
+<td><input type="text" maxlength="25" size="30" placeholder="Full Name" name="fn" id="fn" tabindex="1"></td>
+</tr>
+<tr style="text-align:center;">
+<td><label for="un">Please Enter your User Name:</td>
+<td><input type="text" maxlength="15" size="20" placeholder="User Name" name="un" id="un"></td>
+</tr>
+<tr style="text-align:center;">
+<td><label for="pw">Please Enter your Password:</td>
+<td><input type="text" maxlength="15" size="20" placeholder="Password" name="pw" id="pw"></td>
+</tr>
+<tr style="text-align:center;">
+<td><label for="pw1">Confirm Password:</td>
+<td><input type="password" maxlength="15" size="20" placeholder="Re-enter Password" name="pw1" id="pw1"></td>
+</tr>
+<tr>
+<td style="text-align:right;"><label for="dob">Date Of Birth:</td>
+<td><input type="date" name="dob" id="dob"></td>
+</tr>
+<tr style="text-align:center;">
+<td><label for="add">Enter Your Address:-</td>
+<td><textarea rows="7" cols="50" max="400" name="add" id="add" placeholder="Enter your Address here"></textarea></td>
+</tr>
+<tr style="text-align:center;">
+<td><label for="dob">Phone(Mobile) number:-</td>
+<td><input type="tel" placeholder="+91 ..... ....." maxlength="15" pattern="[+91]-{3}[0-9]-{10}"></td>
+</tr>
+<tr style="text-align:center;">
+<td colspan="2"><button type="sumbit" value="S" style="width:150px;height:40px;background-color:green;color:white;border:none">Next page</button>
+<button type="reset" value="R" style="width:150px;height:40px;background-color:red;color:white;border:none">Reset page</button>
+</td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>

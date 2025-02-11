@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>Page 2</title>
+<link rel="icon" href="../images/logo1.jpg" alt="x_icon">
+
+</head>
+<body bgcolor="#FCE7C8">
+<h1>Fieldset page</h1>
+<fieldset style="border:2px dotted black;">
+<legend>Personalize</legend>
+<form method="get" action="response.html">
+<label for="fn">First Name</label>
+<input type="text" placeholder="Begin with a capital letter" id="fn" name="fn" required tabindex="1"></input><br><br>
+<label for="mn">Middle Name</label>
+<input type="text" placeholder="Middle name if any" id="mn" name="mn"></input><br><br>
+<label for="ln">Last Name</label>
+<input type="text" placeholder="Begin with a capital letter" id="ln" name="ln"></input><br><br>
+<table>
+<tr>
+<td><label for="add">Address:</label></td>
+<td><textarea rows="5" cols="50" placeholder="Enter your address here" name="add" max="500"></textarea></td>
+</tr>
+</table>
+<hr color="#ff0000">
+<h4>Please select your favourite color:</h4>
+<label for="fav">Colour</label>
+<input type="color" name="fav" value="#000000">
+<br>
+<br>
+<label for="gen">Gender</label>
+<input type="radio" name="gen" value="M">Male</radio>
+<input type="radio" name="gen" value="F">Female</radio>
+<input type="radio" name="gen" value="P">Prefer not to say</radio>
+<hr color="#ff0F00">
+
+<h4>Date Of Birth:</h4>
+<h5>can be done in two ways</h5>
+<h6>First method</h6>
+<label for="dob">Date of birth:&nbsp &nbsp</label>
+<input type="date" id="dob" name="dob"></input>
+<br>
+<h6>Second method:</h6>
+<label for="dobx">Date of Birth:</label>
+	<select>
+	<option>Date</option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+	<option>6</option>
+	<option>7</option>
+	<option>8</option>
+	<option>9</option>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+	<option>13</option>
+	<option>14</option>
+	<option>15</option>
+	<option>16</option>
+	<option>17</option>
+	<option>18</option>
+	<option>19</option>
+	<option>20</option>
+	<option>21</option>
+	<option>22</option>
+	<option>23</option>
+	<option>24</option>
+	<option>25</option>
+	<option>26</option>
+	<option>27</option>
+	<option>28</option>
+	<option>29</option>
+	<option>30</option>
+	<option>31</option>
+	</select>
+	<select>
+	<option>Month</option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+	<option>6</option>
+	<option>7</option>
+	<option>8</option>
+	<option>9</option>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+	</select>
+	<select>
+	<option>Year</option>
+					<option>1990</option>
+					<option>1991</option>
+					<option>1992</option>
+					<option>1993</option>
+					<option>1994</option>
+					<option>1995</option>
+					<option>1996</option>
+					<option>1997</option>
+					<option>1998</option>
+					<option>1999</option>
+					<option>2000</option>
+					<option>After 2000</option>
+	</select>
+<hr color="blue">
+<h3>Drop down list</h3>
+<label for="qualified">Qualification</label>
+<select name="qualified" id="qualified" multiple>
+<option value="PG">Masters</option>
+<option value="UG" selected="selected">Graduate</option>
+<option value="Undergraduate">UG</option>
+<option value="Matric">Class X</option>
+</select>
+
+<h3>DATALIST</h3>
+<label for="browser">Datalist of browsers:</label>
+<input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+<option value="Firefox">
+<option value="Explorer">
+<option value="Chrome">
+<option value="Opera">
+<option value="Safari">
+</datalist>
+
+<h3>To upload File</h3>
+<label for="mf">To upload a flie</label>
+<input type="file" id="mf" name="mf">
+<hr color="blue">
+
+<h3>Numeric range</h3>
+<label for="num">Numeric range to select(within 0 to 1000):</label><br>
+<input type="number" id="num" name="num" min="0" max="1000"><br>
+
+<h3>Numeric range with steps</h3>
+<label for="num1">Numeric range to select(within 0 to 1000) having steps 10:</label><br>
+<input type="number" id="num1" name="num1" min="0" max="1000" step="10" value="0000"><br>
+
+<h3>Range with a slider</h3>
+<label for="vx">Numeric range to select(within 0 to 1000):</label><br>
+<input type="range" id="vx" name="vx" min="0" max="200"><br>
+
+<h3>Moblie number:</h3>
+<label for="phone">Moblie Number [+91 ***** *****]:</label>
+<input type="tel" placeholder="+91 ***** *****" pattern="[+91] {3}-[0-9] {10}" maxlength="15" size="16">
+
+<h3>Time attribute:</h3>
+<label for="t">Select a Time:</label>
+<input type="time" id="t" name="t">
+
+<h3>Week attribute:</h3>
+<label for="w">Select a Week:</label>
+<input type="week" id="w" name="w">
+
+<h3>Month attribute:</h3>
+<label for="m">Select a Month:</label>
+<input type="month" id="m" name="m">
+<br><br>
+<button value="click me" style="width:150px;height:40px">click me</button>
+<button type="submit" value="send" style="width:150px;height:40px;color:green;">submit</button>
+<button type="reset" value="cancel" style="width:150px;height:40px;color:red;">reset</button>
+</form>
+</fieldset>
+</body>
+</html>

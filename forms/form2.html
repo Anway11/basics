@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>form 2</title>
+<link rel="icon" href="../images/logo1.jpg" alt="x_icon">
+</head>
+<body bgcolor="#FFC785">
+<form method="post" action="form3.html">
+<table cellpadding="10px" style="background-color:purple;color:white" align="center";>
+<caption align="bottom"><marquee behavior="alternate" scrollamount="3" style="background-color:orange;color:black;">Education qualification</marquee>
+</caption>
+<tr>
+<th>Details:</th>
+<th>User Input</th>
+</tr>
+<tr style="text-align:center;">
+<td><label for="sn">Enter your school name:</label></td>
+<td><input type="text" placeholder="School Name" maxlength="40" size="45" name="sn" id="sn"></td>
+</tr>
+<tr style="text-align:center;">
+<td><label for="add">Enter Your School Address:-</td>
+<td><textarea rows="7" cols="50" max="400" name="add" id="add" placeholder="Enter your School Address here"></textarea></td>
+</tr>
+<tr style="text-align:center;">
+<td><label for="cn">College name:</label></td>
+<td><input type="text" placeholder="College Name" maxlength="40" size="45" id="cn" name="cn"></td>
+</tr>
+<tr style="text-align:center;">
+<td><label for="add2">Enter Your College Address:-</td>
+<td><textarea rows="7" cols="50" max="400" name="add2" id="add2" placeholder="Enter your College Address here"></textarea></td>
+</tr>
+<tr style="text-align:center;">
+<td><label for="q">Your Qualification:</label></td>
+<td>
+<select name="q" id="q" multiple>
+<option name="phd">PHD</option>
+<option name="masters">MSc</option>
+<option name="graduate">UG</option>
+<option name="undergraduate">class XII</option>
+<option name="matric">class X</option>
+</select>
+</td>
+</tr>
+
+<tr style="text-align:center;">
+<td><label for="cr">Your Current status:</label></td>
+<td>
+<input list="current" name="cr" id="cr">
+<datalist id="current">
+<option value="Unemployed">
+<option value="Business">
+<option value="Teacher/Professor">
+<option value="Studying">
+<option value="other fields">
+</datalist> 
+</td>
+</tr>
+
+<tr style="text-align:center;">
+<td colspan="2"><button type="sumbit" value="S" style="width:150px;height:40px;background-color:green;color:white;border:none">Next page</button>
+<button type="reset" value="R" style="width:150px;height:40px;background-color:red;color:white;border:none">Reset page</button>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
